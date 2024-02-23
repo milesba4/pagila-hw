@@ -43,7 +43,6 @@ The following picture illustrates the database's structure:
        $ docker-compose exec pg ./run_tests.sh
        ```
 1. Upload a link to your forked github repo on sakai.
-
    > **Note:**
    > The github actions for this project are currently broken because they are not running the correct scripts.
    > You will have to modify the file `.github/workflows/tests.yml` to run the correct script.
